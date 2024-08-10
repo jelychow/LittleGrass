@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "该模板实现了启动页的功能"
+    },
+    {
+      "name": "main_page_content",
+      "value": "你好，世界"
+    },
+    {
+      "name": "ability_desc",
+      "value": "该Ability加载显示主Page的内容"
+    },
+    {
+      "name": "ability_label",
+      "value": "浅草天气"
+    },
+    {
+      "name": "copyright",
+      "value": "版权所有 @2021-2027 xx公司"
+    },
+    {
+      "name": "skip",
+      "value": "跳过 %d"
+    },
+    {
+      "name": "copyright_title",
+      "value": "视频"
+    }
+  ]
+}

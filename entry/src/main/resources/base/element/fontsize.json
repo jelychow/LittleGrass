@@ -1,0 +1,20 @@
+{
+  "float": [
+    {
+      "name": "h1",
+      "value": "80fp"
+    },
+    {
+      "name": "h2",
+      "value": "48fp"
+    },
+    {
+      "name": "title",
+      "value": "18fp"
+    },
+    {
+      "name": "caption",
+      "value": "16fp"
+    }
+  ]
+}

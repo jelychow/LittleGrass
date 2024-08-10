@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "This module template implements Splash Screen functions."
+    },
+    {
+      "name": "main_page_content",
+      "value": "Hello World"
+    },
+    {
+      "name": "ability_desc",
+      "value": "This ability loads SplashScreenPage."
+    },
+    {
+      "name": "ability_label",
+      "value": "Splash Screen Ability"
+    },
+    {
+      "name": "copyright",
+      "value": "Copyright @2021-2027 xx Company"
+    },
+    {
+      "name": "skip",
+      "value": "Skip %d"
+    },
+    {
+      "name": "copyright_title",
+      "value": "Video"
+    }
+  ]
+}

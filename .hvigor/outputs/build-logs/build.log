@@ -1,0 +1,863 @@
+[2024-08-10T11:57:25.560] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2024-08-10T11:57:26.433] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-08-10T11:57:26.450] [DEBUG] debug-file - hvigorfile, resolving E:\github\github\LittleGrass\hvigorfile.ts
+[2024-08-10T11:57:27.721] [DEBUG] debug-file - hvigorfile, require result:  { appTasks: [Getter] }
+[2024-08-10T11:57:27.821] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-08-10T11:57:27.823] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-08-10T11:57:27.836] [DEBUG] debug-file - Sdk init in 12 ms 
+[2024-08-10T11:57:27.830] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2024-08-10T11:57:27.827] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2024-08-10T11:57:27.852] [DEBUG] debug-file - Project task initialization takes 16 ms 
+[2024-08-10T11:57:27.857] [DEBUG] debug-file - hvigorfile, resolving E:\github\github\LittleGrass\entry\hvigorfile.ts
+[2024-08-10T11:57:27.866] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-08-10T11:57:27.870] [DEBUG] debug-file - Module entry task initialization takes 2 ms 
+[2024-08-10T11:57:27.875] [DEBUG] debug-file - hvigorfile, resolving E:\github\github\LittleGrass\retrofit\hvigorfile.ts
+[2024-08-10T11:57:27.884] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=retrofit, buildMode=debug
+[2024-08-10T11:57:25.562] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2024-08-10T11:57:27.887] [DEBUG] debug-file - project has submodules:entry,retrofit
+[2024-08-10T11:57:27.886] [DEBUG] debug-file - hvigorfile, resolve finished E:\github\github\LittleGrass\retrofit\hvigorfile.ts
+[2024-08-10T11:57:27.886] [DEBUG] debug-file - Module retrofit task initialization takes 1 ms 
+[2024-08-10T11:57:26.438] [DEBUG] debug-file - Cache service initialization finished in 5 ms 
+[2024-08-10T11:57:27.984] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2024-08-10T11:57:27.722] [DEBUG] debug-file - hvigorfile, binding system plugins { appTasks: [Getter] }
+[2024-08-10T11:57:27.821] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-08-10T11:57:27.824] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2024-08-10T11:57:27.852] [DEBUG] debug-file - hvigorfile, resolve finished E:\github\github\LittleGrass\hvigorfile.ts
+[2024-08-10T11:57:27.860] [DEBUG] debug-file - hvigorfile, require result:  { hapTasks: [Getter] }
+[2024-08-10T11:57:27.867] [DEBUG] debug-file - Target 'default' config: {}
+[2024-08-10T11:57:27.871] [DEBUG] debug-file - hvigorfile, resolve finished E:\github\github\LittleGrass\entry\hvigorfile.ts
+[2024-08-10T11:57:27.881] [DEBUG] debug-file - hvigorfile, require result:  [Function: hspTasks]
+[2024-08-10T11:57:27.884] [DEBUG] debug-file - Target 'default' config: {}
+[2024-08-10T11:57:25.563] [DEBUG] debug-file - env: daemon=false
+[2024-08-10T11:57:27.887] [DEBUG] debug-file - module:retrofit no need to execute packageHap
+[2024-08-10T11:57:27.985] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2024-08-10T11:57:27.821] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-08-10T11:57:27.860] [DEBUG] debug-file - hvigorfile, binding system plugins { hapTasks: [Getter] }
+[2024-08-10T11:57:27.867] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-08-10T11:57:27.881] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hspTasks]
+[2024-08-10T11:57:27.884] [DEBUG] debug-file - Module 'retrofit' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "resOptions": {}
+}
+[2024-08-10T11:57:25.563] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
+[2024-08-10T11:57:27.887] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-08-10T11:57:27.987] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2024-08-10T11:57:27.821] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-08-10T11:57:27.867] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "resOptions": {}
+}
+[2024-08-10T11:57:27.884] [DEBUG] debug-file - End initialize module-target build option map, moduleName=retrofit
+[2024-08-10T11:57:27.892] [DEBUG] debug-file - load to the disk finished
+[2024-08-10T11:57:27.987] [DEBUG] debug-file - Clear worker 0.
+[2024-08-10T11:57:27.867] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "resOptions": {}
+}
+[2024-08-10T11:57:27.884] [DEBUG] debug-file - Module 'retrofit' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "resOptions": {}
+} in this build.
+[2024-08-10T11:57:27.895] [DEBUG] debug-file - Module LittleGrass Collected Dependency: E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-08-10T11:57:27.987] [DEBUG] debug-file - Worker 0 has been cleared.
+[2024-08-10T11:57:27.867] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-08-10T11:57:27.895] [DEBUG] debug-file - Module LittleGrass's total dependency: 1
+[2024-08-10T11:57:27.987] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-08-10T11:57:27.867] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "resOptions": {}
+} in this build.
+[2024-08-10T11:57:27.897] [DEBUG] debug-file - Module entry Collected Dependency: E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-08-10T11:57:27.987] [DEBUG] debug-file - Current busy worker size: 0.
+[2024-08-10T11:57:27.897] [DEBUG] debug-file - Module entry's total dependency: 1
+[2024-08-10T11:57:27.987] [DEBUG] debug-file - Clear worker 1.
+[2024-08-10T11:57:27.900] [DEBUG] debug-file - Module retrofit Collected Dependency: E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-08-10T11:57:27.987] [DEBUG] debug-file - Worker 1 has been cleared.
+[2024-08-10T11:57:27.900] [DEBUG] debug-file - Module retrofit's total dependency: 1
+[2024-08-10T11:57:27.987] [DEBUG] debug-file - Current idle worker size: 0.
+[2024-08-10T11:57:27.901] [DEBUG] debug-file - Configuration phase cost:1 s 458 ms 
+[2024-08-10T11:57:27.987] [DEBUG] debug-file - Current busy worker size: 0.
+[2024-08-10T11:57:27.902] [DEBUG] debug-file - Configuration task cost before running: 1 s 482 ms 
+[2024-08-10T11:57:27.987] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-08-10T11:57:27.903] [DEBUG] debug-file - Executing task :entry:init
+[2024-08-10T11:57:27.990] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2024-08-10T11:57:27.903] [DEBUG] debug-file - entry : init cost memory 0.0112457275390625
+[2024-08-10T11:57:27.990] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2024-08-10T11:57:27.903] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 483 ms 
+[2024-08-10T11:57:27.993] [DEBUG] debug-file - Current worker pool is terminated.
+[2024-08-10T11:57:27.904] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2024-08-10T11:57:27.904] [DEBUG] debug-file - Executing task :retrofit:init
+[2024-08-10T11:57:27.904] [DEBUG] debug-file - retrofit : init cost memory 0.00780487060546875
+[2024-08-10T11:57:27.904] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 484 ms 
+[2024-08-10T11:57:27.904] [INFO] debug-file - Finished :retrofit:init... after 1 ms 
+[2024-08-10T11:57:27.904] [DEBUG] debug-file - Executing task ::init
+[2024-08-10T11:57:27.905] [DEBUG] debug-file - LittleGrass : init cost memory 0.00853729248046875
+[2024-08-10T11:57:27.905] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 485 ms 
+[2024-08-10T11:57:27.905] [INFO] debug-file - Finished ::init... after 1 ms 
+[2024-08-10T11:57:27.974] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "resOptions": {}
+} in this build.
+[2024-08-10T11:57:27.975] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "resOptions": {}
+} in this build.
+[2024-08-10T11:57:27.976] [DEBUG] debug-file - Module 'retrofit' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "resOptions": {}
+} in this build.
+[2024-08-10T11:57:27.978] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: false,
+  _: [ '--analyze=normal' ]
+}
+[2024-08-10T11:57:27.983] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2024-08-10T11:57:27.983] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2024-08-10T11:57:35.447] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2024-08-10T11:57:35.685] [DEBUG] debug-file - env: daemon=true
+[2024-08-10T11:57:35.448] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2024-08-10T11:57:37.622] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [
+    'module=entry@default',
+    'product=default',
+    'requiredDeviceType=phone'
+  ],
+  mode: 'module',
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: [ 'assembleHap', '--analyze=normal' ]
+}
+[2024-08-10T11:57:37.643] [DEBUG] debug-file - session manager: set active socket. socketId=e5DCZ6T01hVffWVmAAAB
+[2024-08-10T11:57:37.672] [DEBUG] debug-file - java daemon tryConnect success
+[2024-08-10T11:57:39.536] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-08-10T11:57:39.547] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-08-10T11:57:39.551] [DEBUG] debug-file - Cache service initialization finished in 4 ms 
+[2024-08-10T11:57:39.557] [DEBUG] debug-file - hvigorfile, resolving E:\github\github\LittleGrass\hvigorfile.ts
+[2024-08-10T11:57:41.282] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-08-10T11:57:41.282] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-08-10T11:57:41.395] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-08-10T11:57:41.395] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-08-10T11:57:41.395] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-08-10T11:57:41.395] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-08-10T11:57:41.397] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-08-10T11:57:41.398] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2024-08-10T11:57:41.401] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2024-08-10T11:57:41.403] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2024-08-10T11:57:41.408] [DEBUG] debug-file - Sdk init in 10 ms 
+[2024-08-10T11:57:41.419] [DEBUG] debug-file - Project task initialization takes 10 ms 
+[2024-08-10T11:57:41.419] [DEBUG] debug-file - hvigorfile, resolve finished E:\github\github\LittleGrass\hvigorfile.ts
+[2024-08-10T11:57:41.421] [DEBUG] debug-file - hvigorfile, resolving E:\github\github\LittleGrass\entry\hvigorfile.ts
+[2024-08-10T11:57:41.425] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-08-10T11:57:41.425] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-08-10T11:57:41.430] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-08-10T11:57:41.430] [DEBUG] debug-file - Target 'default' config: {}
+[2024-08-10T11:57:41.431] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-08-10T11:57:41.431] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "resOptions": {}
+}
+[2024-08-10T11:57:41.431] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "resOptions": {}
+}
+[2024-08-10T11:57:41.431] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-08-10T11:57:41.431] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "resOptions": {}
+} in this build.
+[2024-08-10T11:57:41.434] [DEBUG] debug-file - Module entry task initialization takes 2 ms 
+[2024-08-10T11:57:41.434] [DEBUG] debug-file - hvigorfile, resolve finished E:\github\github\LittleGrass\entry\hvigorfile.ts
+[2024-08-10T11:57:41.437] [DEBUG] debug-file - hvigorfile, resolving E:\github\github\LittleGrass\retrofit\hvigorfile.ts
+[2024-08-10T11:57:41.443] [DEBUG] debug-file - hvigorfile, require result:  null
+[2024-08-10T11:57:41.443] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-08-10T11:57:41.445] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=retrofit, buildMode=debug
+[2024-08-10T11:57:41.445] [DEBUG] debug-file - Target 'default' config: {}
+[2024-08-10T11:57:41.445] [DEBUG] debug-file - Module 'retrofit' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "resOptions": {}
+}
+[2024-08-10T11:57:41.445] [DEBUG] debug-file - End initialize module-target build option map, moduleName=retrofit
+[2024-08-10T11:57:41.445] [DEBUG] debug-file - Module 'retrofit' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "resOptions": {}
+} in this build.
+[2024-08-10T11:57:41.447] [DEBUG] debug-file - Module retrofit task initialization takes 1 ms 
+[2024-08-10T11:57:41.448] [DEBUG] debug-file - hvigorfile, resolve finished E:\github\github\LittleGrass\retrofit\hvigorfile.ts
+[2024-08-10T11:57:41.476] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 28 ms 
+[2024-08-10T11:57:41.477] [DEBUG] debug-file - project has submodules:entry,retrofit
+[2024-08-10T11:57:41.477] [DEBUG] debug-file - module:retrofit no need to execute packageHap
+[2024-08-10T11:57:41.477] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-08-10T11:57:41.483] [DEBUG] debug-file - load to the disk finished
+[2024-08-10T11:57:41.487] [DEBUG] debug-file - Module LittleGrass Collected Dependency: E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-08-10T11:57:41.487] [DEBUG] debug-file - Module LittleGrass's total dependency: 1
+[2024-08-10T11:57:41.489] [DEBUG] debug-file - Module entry Collected Dependency: E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-08-10T11:57:41.489] [DEBUG] debug-file - Module entry's total dependency: 1
+[2024-08-10T11:57:41.494] [DEBUG] debug-file - Module retrofit Collected Dependency: E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios
+[2024-08-10T11:57:41.494] [DEBUG] debug-file - Module retrofit's total dependency: 1
+[2024-08-10T11:57:41.495] [DEBUG] debug-file - Configuration phase cost:1 s 942 ms 
+[2024-08-10T11:57:41.497] [DEBUG] debug-file - Configuration task cost before running: 1 s 959 ms 
+[2024-08-10T11:57:41.499] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.499] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.502] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2024-08-10T11:57:41.505] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2024-08-10T11:57:41.506] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2024-08-10T11:57:41.506] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2024-08-10T11:57:41.508] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2024-08-10T11:57:41.580] [DEBUG] debug-file - current product is not Atomic service.
+[2024-08-10T11:57:41.580] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [
+  { JAVA_HOME: 'C:\\Program Files\\Huawei\\DevEco Studio\\jbr' },
+  { CLASSPATH: undefined }
+]
+[2024-08-10T11:57:41.580] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [
+  {
+    NODE_HOME: 'C:\\Program Files\\Huawei\\DevEco Studio\\tools\\node'
+  }
+]
+[2024-08-10T11:57:41.580] [DEBUG] debug-file - entry : default@PreBuild cost memory 2.6851959228515625
+[2024-08-10T11:57:41.581] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 42 ms 
+[2024-08-10T11:57:41.582] [INFO] debug-file - Finished :entry:default@PreBuild... after 79 ms 
+[2024-08-10T11:57:41.583] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.583] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.584] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2024-08-10T11:57:41.586] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.10588836669921875
+[2024-08-10T11:57:41.586] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 48 ms 
+[2024-08-10T11:57:41.587] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 3 ms 
+[2024-08-10T11:57:41.588] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.588] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.588] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2024-08-10T11:57:41.589] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.01397705078125
+[2024-08-10T11:57:41.589] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 50 ms 
+[2024-08-10T11:57:41.589] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2024-08-10T11:57:41.590] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.590] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.591] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2024-08-10T11:57:41.591] [DEBUG] debug-file - Change app api release type with 'Beta2'
+[2024-08-10T11:57:41.592] [DEBUG] debug-file - Change app compile API version with '5.0.0.31'
+[2024-08-10T11:57:41.592] [DEBUG] debug-file - Change app target API version with '50000012'
+[2024-08-10T11:57:41.592] [DEBUG] debug-file - Change app minimum API version with '40000010'
+[2024-08-10T11:57:41.592] [DEBUG] debug-file - Use cli appEnvironment
+[2024-08-10T11:57:41.597] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.44600677490234375
+[2024-08-10T11:57:41.597] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 58 ms 
+[2024-08-10T11:57:41.597] [INFO] debug-file - Finished :entry:default@MergeProfile... after 6 ms 
+[2024-08-10T11:57:41.598] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.598] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.599] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2024-08-10T11:57:41.600] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.0782012939453125
+[2024-08-10T11:57:41.601] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 62 ms 
+[2024-08-10T11:57:41.601] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 2 ms 
+[2024-08-10T11:57:41.602] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.602] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.602] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2024-08-10T11:57:41.603] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.0142822265625
+[2024-08-10T11:57:41.603] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 65 ms 
+[2024-08-10T11:57:41.603] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2024-08-10T11:57:41.604] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.604] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.612] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2024-08-10T11:57:41.612] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.02227020263671875
+[2024-08-10T11:57:41.612] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 74 ms 
+[2024-08-10T11:57:41.613] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2024-08-10T11:57:41.614] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.614] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.615] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2024-08-10T11:57:41.615] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.041656494140625
+[2024-08-10T11:57:41.615] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 77 ms 
+[2024-08-10T11:57:41.616] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 1 ms 
+[2024-08-10T11:57:41.617] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.617] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.617] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2024-08-10T11:57:41.617] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.014190673828125
+[2024-08-10T11:57:41.618] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 79 ms 
+[2024-08-10T11:57:41.618] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2024-08-10T11:57:41.619] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.619] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.619] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2024-08-10T11:57:41.621] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: {
+      bundleName: 'com.captainz.littlegrass',
+      bundleType: 'app',
+      version: [Object]
+    },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2024-08-10T11:57:41.621] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.1179351806640625
+[2024-08-10T11:57:41.621] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 83 ms 
+[2024-08-10T11:57:41.622] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 3 ms 
+[2024-08-10T11:57:41.623] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.623] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.624] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2024-08-10T11:57:41.625] [DEBUG] debug-file - [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\tools\\node\\node.exe',
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\HarmonyOS-NEXT-DB2\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '10'
+]
+[2024-08-10T11:57:41.703] [DEBUG] debug-file - 9.0.0.0
+[2024-08-10T11:57:41.705] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 1.9830703735351562
+[2024-08-10T11:57:41.705] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 167 ms 
+[2024-08-10T11:57:41.705] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 82 ms 
+[2024-08-10T11:57:41.707] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.707] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.708] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2024-08-10T11:57:41.711] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.04462432861328125
+[2024-08-10T11:57:41.712] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 173 ms 
+[2024-08-10T11:57:41.713] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 4 ms 
+[2024-08-10T11:57:41.715] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.715] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.716] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2024-08-10T11:57:41.721] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.2376861572265625
+[2024-08-10T11:57:41.721] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 183 ms 
+[2024-08-10T11:57:41.723] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 6 ms 
+[2024-08-10T11:57:41.724] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.724] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.725] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2024-08-10T11:57:41.726] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.0350494384765625
+[2024-08-10T11:57:41.727] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 188 ms 
+[2024-08-10T11:57:41.727] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 2 ms 
+[2024-08-10T11:57:41.728] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.728] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.729] [DEBUG] debug-file - restool module names: entry,retrofit; moduleName=entry, taskName=default@ProcessResource
+[2024-08-10T11:57:41.732] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2024-08-10T11:57:41.733] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.09677886962890625
+[2024-08-10T11:57:41.734] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 196 ms 
+[2024-08-10T11:57:41.735] [INFO] debug-file - Finished :entry:default@ProcessResource... after 3 ms 
+[2024-08-10T11:57:41.736] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.736] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.740] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2024-08-10T11:57:41.748] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.613250732421875
+[2024-08-10T11:57:41.748] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 210 ms 
+[2024-08-10T11:57:41.750] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 9 ms 
+[2024-08-10T11:57:41.752] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.752] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.754] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2024-08-10T11:57:41.756] [DEBUG] debug-file - default@ProcessLibs work[0] is submitted.
+[2024-08-10T11:57:41.758] [DEBUG] debug-file - default@ProcessLibs work[0] is pushed to ready queue.
+[2024-08-10T11:57:41.758] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.758] [DEBUG] debug-file - Create  resident worker with id: 30.
+[2024-08-10T11:57:41.759] [DEBUG] debug-file - default@ProcessLibs work[0] has been dispatched to worker[30].
+[2024-08-10T11:57:41.759] [DEBUG] debug-file - default@ProcessLibs work[0] is dispatched.
+[2024-08-10T11:57:41.759] [DEBUG] debug-file - entry : default@ProcessLibs cost memory -12.304542541503906
+[2024-08-10T11:57:41.760] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.760] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.761] [DEBUG] debug-file - restool module names: entry,retrofit; moduleName=entry, taskName=default@CompileResource
+[2024-08-10T11:57:41.762] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2024-08-10T11:57:41.804] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\HarmonyOS-NEXT-DB2\openharmony\toolchains\restool.exe]
+ [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\HarmonyOS-NEXT-DB2\\openharmony\\toolchains\\restool.exe',
+  '-l',
+  'E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\res\\default\\resConfig.json'
+]
+[2024-08-10T11:57:41.806] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 227766272,
+  heapTotal: 139800576,
+  heapUsed: 108155288,
+  external: 1431453,
+  arrayBuffers: 176235
+} os memoryUsage :33.8502197265625
+[2024-08-10T11:57:41.933] [DEBUG] debug-file - Warning: 'page_show' conflict, first declared.
+at E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\src\main\resources\base\element\string.json
+but declared again.
+at E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\resource_str\base\element\string.json
+Warning: 'page_show' conflict, first declared.
+at E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\src\main\resources\en_US\element\string.json
+but declared again.
+at E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\resource_str\en_US\element\string.json
+Warning: 'page_show' conflict, first declared.
+at E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\src\main\resources\zh_CN\element\string.json
+but declared again.
+at E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\resource_str\zh_CN\element\string.json
+
+[2024-08-10T11:57:41.936] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2024-08-10T11:57:41.940] [DEBUG] debug-file - entry : default@CompileResource cost memory 6.693244934082031
+[2024-08-10T11:57:41.941] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 402 ms 
+[2024-08-10T11:57:41.941] [INFO] debug-file - Finished :entry:default@CompileResource... after 179 ms 
+[2024-08-10T11:57:41.942] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.943] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.945] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2024-08-10T11:57:41.955] [DEBUG] debug-file - build config:
+[2024-08-10T11:57:41.955] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'E:\\github\\github\\LittleGrass\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: 'E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\HarmonyOS-NEXT-DB2\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'E:\\github\\github\\LittleGrass\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'E:\\github\\github\\LittleGrass',
+  compileSdkVersion: 12,
+  compatibleSdkVersion: 10,
+  bundleName: 'com.captainz.littlegrass',
+  etsLoaderVersion: '5.0.0.31',
+  etsLoaderReleaseType: 'Beta2',
+  aotCompileMode: 'type',
+  apPath: 'E:\\github\\github\\LittleGrass\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'b9759fb5f9926a1c31b0d1839875efb0',
+  externalApiPaths: [
+    'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\HarmonyOS-NEXT-DB2\\hms\\ets'
+  ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  buildGeneratedProfilePath: 'E:\\github\\github\\LittleGrass\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 12,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: undefined,
+  buildDir: 'E:\\github\\github\\LittleGrass\\entry\\build',
+  deviceTypes: [ 'phone', 'tablet' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: {
+    requestPermissions: [ [Object], [Object], [Object] ],
+    definePermissions: undefined
+  },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: false,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  rootPathSet: [ 'E:\\github\\github\\LittleGrass' ],
+  aceModuleJsonPath: 'E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\res\\default\\module.json',
+  appResource: 'E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: 'b029c1afd998a3f21c54bd4e0a1feeef',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:12:5.0.0.31:Beta2',
+  aceModuleRoot: 'E:\\github\\github\\LittleGrass\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'E:\\github\\github\\LittleGrass\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'E:\\github\\github\\LittleGrass\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  pkgNameToPkgBriefInfo: {
+    '@ohos/axios': {
+      pkgRoot: 'E:\\github\\github\\LittleGrass\\oh_modules\\.ohpm\\@ohos+axios@2.2.0\\oh_modules\\@ohos\\axios',
+      pkgName: '@ohos/axios',
+      sourceRoots: undefined
+    },
+    entry: {
+      pkgRoot: 'E:\\github\\github\\LittleGrass\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'E:\\github\\github\\LittleGrass\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'E:\\github\\github\\LittleGrass\\entry',
+      belongProjectPath: 'E:\\github\\github\\LittleGrass'
+    },
+    'E:\\github\\github\\LittleGrass\\entry\\src\\ohosTest': {
+      moduleName: 'entry_test',
+      modulePkgPath: 'E:\\github\\github\\LittleGrass\\entry',
+      belongProjectPath: 'E:\\github\\github\\LittleGrass'
+    },
+    'E:\\github\\github\\LittleGrass\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'E:\\github\\github\\LittleGrass\\entry',
+      belongProjectPath: 'E:\\github\\github\\LittleGrass'
+    },
+    'E:\\github\\github\\LittleGrass\\retrofit\\src\\main': {
+      moduleName: 'retrofit',
+      modulePkgPath: 'E:\\github\\github\\LittleGrass\\retrofit',
+      belongProjectPath: 'E:\\github\\github\\LittleGrass'
+    },
+    'E:\\github\\github\\LittleGrass\\retrofit': {
+      moduleName: 'retrofit',
+      modulePkgPath: 'E:\\github\\github\\LittleGrass\\retrofit',
+      belongProjectPath: 'E:\\github\\github\\LittleGrass'
+    },
+    'E:\\github\\github\\LittleGrass': {
+      moduleName: 'LittleGrass',
+      modulePkgPath: 'E:\\github\\github\\LittleGrass',
+      belongProjectPath: 'E:\\github\\github\\LittleGrass'
+    }
+  },
+  pkgJsonFileHash: 'aa945a0c006b8fdbe4382cc0387fdeda',
+  allModulePaths: [
+    'E:\\github\\github\\LittleGrass\\entry',
+    'E:\\github\\github\\LittleGrass\\retrofit'
+  ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  overallProjectPaths: [ 'E:\\github\\github\\LittleGrass' ],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {}
+  },
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2024-08-10T11:57:41.956] [DEBUG] debug-file - Compile arkts with external api path: C:\Program Files\Huawei\DevEco Studio\sdk\HarmonyOS-NEXT-DB2\hms\ets
+[2024-08-10T11:57:41.956] [DEBUG] debug-file - default@CompileArkTS work[1] is submitted.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - default@CompileArkTS work[1] is pushed to ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[30] failed because of worker busy.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[29] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[28] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[27] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[26] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[25] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[24] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[23] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[22] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[21] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[20] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[17] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[16] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[3] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[2] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - A work dispatched to worker[1] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.957] [DEBUG] debug-file - default@CompileArkTS work[1] has been dispatched to worker[0].
+[2024-08-10T11:57:41.958] [DEBUG] debug-file - default@CompileArkTS work[1] is dispatched.
+[2024-08-10T11:57:41.958] [DEBUG] debug-file - CopyResources startTime: 87831442591500
+[2024-08-10T11:57:41.958] [DEBUG] debug-file - default@CompileArkTS work[2] is submitted.
+[2024-08-10T11:57:41.958] [DEBUG] debug-file - default@CompileArkTS work[2] is pushed to ready queue.
+[2024-08-10T11:57:41.958] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2024-08-10T11:57:41.958] [DEBUG] debug-file - A work dispatched to worker[30] failed because of worker busy.
+[2024-08-10T11:57:41.958] [DEBUG] debug-file - Create  resident worker with id: 29.
+[2024-08-10T11:57:41.959] [DEBUG] debug-file - default@CompileArkTS work[2] has been dispatched to worker[29].
+[2024-08-10T11:57:41.959] [DEBUG] debug-file - default@CompileArkTS work[2] is dispatched.
+[2024-08-10T11:57:41.959] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.6101608276367188
+[2024-08-10T11:57:41.960] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:41.960] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:41.961] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2024-08-10T11:57:41.963] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.14730072021484375
+[2024-08-10T11:57:41.963] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 425 ms 
+[2024-08-10T11:57:41.963] [INFO] debug-file - Finished :entry:default@BuildJS... after 2 ms 
+[2024-08-10T11:57:43.135] [DEBUG] debug-file - worker[30] has one work done.
+[2024-08-10T11:57:43.136] [DEBUG] debug-file - default@ProcessLibs work[0] done.
+[2024-08-10T11:57:43.136] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2024-08-10T11:57:43.136] [INFO] debug-file - Finished :entry:default@ProcessLibs... after 1 s 383 ms 
+[2024-08-10T11:57:43.137] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:43.138] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:43.139] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2024-08-10T11:57:43.139] [DEBUG] debug-file - default@DoNativeStrip work[3] is submitted.
+[2024-08-10T11:57:43.140] [DEBUG] debug-file - default@DoNativeStrip work[3] is pushed to ready queue.
+[2024-08-10T11:57:43.140] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2024-08-10T11:57:43.140] [DEBUG] debug-file - default@DoNativeStrip work[3] has been dispatched to worker[30].
+[2024-08-10T11:57:43.140] [DEBUG] debug-file - default@DoNativeStrip work[3] is dispatched.
+[2024-08-10T11:57:43.140] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.15233612060546875
+[2024-08-10T11:57:43.150] [DEBUG] debug-file - worker[30] has one work done.
+[2024-08-10T11:57:43.150] [DEBUG] debug-file - default@DoNativeStrip work[3] done.
+[2024-08-10T11:57:43.150] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2024-08-10T11:57:43.150] [INFO] debug-file - Finished :entry:default@DoNativeStrip... after 12 ms 
+[2024-08-10T11:57:43.151] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:43.151] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:43.152] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2024-08-10T11:57:43.153] [DEBUG] debug-file - default@CacheNativeLibs work[4] is submitted.
+[2024-08-10T11:57:43.154] [DEBUG] debug-file - default@CacheNativeLibs work[4] is pushed to ready queue.
+[2024-08-10T11:57:43.154] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2024-08-10T11:57:43.154] [DEBUG] debug-file - default@CacheNativeLibs work[4] has been dispatched to worker[30].
+[2024-08-10T11:57:43.154] [DEBUG] debug-file - default@CacheNativeLibs work[4] is dispatched.
+[2024-08-10T11:57:43.154] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.1404876708984375
+[2024-08-10T11:57:43.305] [DEBUG] debug-file - worker[29] has one work done.
+[2024-08-10T11:57:43.305] [DEBUG] debug-file - CopyResources is end, endTime: 87832790234000
+[2024-08-10T11:57:43.305] [DEBUG] debug-file - default@CompileArkTS work[2] done.
+[2024-08-10T11:57:43.305] [DEBUG] debug-file - A work dispatched to worker[29] failed because unable to get work from ready queue.
+[2024-08-10T11:57:44.359] [DEBUG] debug-file - worker[30] has one work done.
+[2024-08-10T11:57:44.359] [DEBUG] debug-file - default@CacheNativeLibs work[4] done.
+[2024-08-10T11:57:44.359] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2024-08-10T11:57:44.359] [INFO] debug-file - Finished :entry:default@CacheNativeLibs... after 1 s 207 ms 
+[2024-08-10T11:57:48.570] [DEBUG] debug-file - worker[0] has one work done.
+[2024-08-10T11:57:48.575] [DEBUG] debug-file - default@CompileArkTS work[1] done.
+[2024-08-10T11:57:48.575] [DEBUG] debug-file - A work dispatched to worker[0] failed because unable to get work from ready queue.
+[2024-08-10T11:57:48.578] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 6 s 630 ms 
+[2024-08-10T11:57:48.580] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:48.580] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:48.581] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2024-08-10T11:57:48.584] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.046905517578125
+[2024-08-10T11:57:48.584] [DEBUG] debug-file - runTaskFromQueue task cost before running: 9 s 46 ms 
+[2024-08-10T11:57:48.584] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 3 ms 
+[2024-08-10T11:57:48.585] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:48.585] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:48.592] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2024-08-10T11:57:48.570] [DEBUG] debug-file - Ark compile task finished.finished time is 87838054711200
+[2024-08-10T11:57:48.599] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\HarmonyOS-NEXT-DB2\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\HarmonyOS-NEXT-DB2\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'E:\\github\\github\\LittleGrass\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'E:\\github\\github\\LittleGrass\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'E:\\github\\github\\LittleGrass\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2024-08-10T11:57:48.601] [DEBUG] debug-file - default@PackageHap work[5] is submitted.
+[2024-08-10T11:57:48.601] [DEBUG] debug-file - default@PackageHap work[5] is pushed to ready queue.
+[2024-08-10T11:57:48.601] [DEBUG] debug-file - A work dispatched to worker[31] failed because unable to get work from ready queue.
+[2024-08-10T11:57:48.601] [DEBUG] debug-file - default@PackageHap work[5] has been dispatched to worker[30].
+[2024-08-10T11:57:48.601] [DEBUG] debug-file - default@PackageHap work[5] is dispatched.
+[2024-08-10T11:57:48.603] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.5310897827148438
+[2024-08-10T11:57:48.606] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 745041920,
+  heapTotal: 100122624,
+  heapUsed: 73243304,
+  external: 2480753,
+  arrayBuffers: 172594
+} os memoryUsage :34.291690826416016
+[2024-08-10T11:57:48.962] [DEBUG] debug-file - worker[30] has one work done.
+[2024-08-10T11:57:48.962] [DEBUG] debug-file - default@PackageHap work[5] done.
+[2024-08-10T11:57:48.962] [DEBUG] debug-file - A work dispatched to worker[30] failed because unable to get work from ready queue.
+[2024-08-10T11:57:48.963] [INFO] debug-file - Finished :entry:default@PackageHap... after 371 ms 
+[2024-08-10T11:57:48.965] [DEBUG] debug-file - jsonObjWithoutParam {"@ohos/axios":"2.2.0"} at undefined
+[2024-08-10T11:57:48.965] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/axios":"2.2.0"}} at undefined
+[2024-08-10T11:57:48.967] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2024-08-10T11:57:48.967] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in E:\github\github\LittleGrass\build-profile.json5.
+[2024-08-10T11:57:48.968] [DEBUG] debug-file - entry : default@SignHap cost memory 0.09272003173828125
+[2024-08-10T11:57:48.968] [DEBUG] debug-file - runTaskFromQueue task cost before running: 9 s 430 ms 
+[2024-08-10T11:57:48.968] [INFO] debug-file - Finished :entry:default@SignHap... after 2 ms 
+[2024-08-10T11:57:48.969] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2024-08-10T11:57:48.969] [DEBUG] debug-file - entry : assembleHap cost memory 0.0116119384765625
+[2024-08-10T11:57:48.969] [DEBUG] debug-file - runTaskFromQueue task cost before running: 9 s 431 ms 
+[2024-08-10T11:57:48.969] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2024-08-10T11:57:49.121] [DEBUG] debug-file - BUILD SUCCESSFUL in 9 s 583 ms 
+[2024-08-10T11:57:49.122] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\github\github\LittleGrass\AppScope\app.json5 cache by regenerate.
+[2024-08-10T11:57:49.122] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\github\github\LittleGrass\entry\src\main\module.json5 cache by regenerate.
+[2024-08-10T11:57:49.122] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\github\github\LittleGrass\build-profile.json5 cache by regenerate.
+[2024-08-10T11:57:49.123] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\github\github\LittleGrass\entry\build-profile.json5 cache by regenerate.
+[2024-08-10T11:57:49.123] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\github\github\LittleGrass\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2024-08-10T11:57:49.123] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\github\github\LittleGrass\hvigor\hvigor-config.json5 cache by regenerate.
+[2024-08-10T11:57:49.123] [DEBUG] debug-file - Update task entry:default@PreBuild input file:E:\github\github\LittleGrass\entry\oh-package.json5 cache by regenerate.
+[2024-08-10T11:57:49.124] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:3 ms .
+[2024-08-10T11:57:49.124] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:E:\github\github\LittleGrass\entry\src\main\module.json5 cache by regenerate.
+[2024-08-10T11:57:49.124] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:E:\github\github\LittleGrass\entry\build\default\intermediates\hap_metadata\default\output_metadata.json cache.
+[2024-08-10T11:57:49.124] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:1 ms .
+[2024-08-10T11:57:49.124] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:E:\github\github\LittleGrass\AppScope\app.json5 cache by regenerate.
+[2024-08-10T11:57:49.125] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:E:\github\github\LittleGrass\build-profile.json5 cache by regenerate.
+[2024-08-10T11:57:49.125] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:E:\github\github\LittleGrass\entry\src\main\module.json5 cache by regenerate.
+[2024-08-10T11:57:49.125] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\src\main\module.json cache by regenerate.
+[2024-08-10T11:57:49.125] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:E:\github\github\LittleGrass\entry\build\default\intermediates\merge_profile\default\module.json cache.
+[2024-08-10T11:57:49.125] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:1 ms .
+[2024-08-10T11:57:49.125] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:E:\github\github\LittleGrass\AppScope\app.json5 cache by regenerate.
+[2024-08-10T11:57:49.125] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:E:\github\github\LittleGrass\build-profile.json5 cache by regenerate.
+[2024-08-10T11:57:49.126] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:E:\github\github\LittleGrass\entry\build\default\generated\profile\default\BuildProfile.ets cache.
+[2024-08-10T11:57:49.126] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:1 ms .
+[2024-08-10T11:57:49.126] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:E:\github\github\LittleGrass\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2024-08-10T11:57:49.126] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2024-08-10T11:57:49.127] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:E:\github\github\LittleGrass\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2024-08-10T11:57:49.127] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2024-08-10T11:57:49.127] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:E:\github\github\LittleGrass\AppScope\app.json5 cache by regenerate.
+[2024-08-10T11:57:49.127] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:E:\github\github\LittleGrass\entry\src\main\module.json5 cache by regenerate.
+[2024-08-10T11:57:49.127] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:E:\github\github\LittleGrass\build-profile.json5 cache by regenerate.
+[2024-08-10T11:57:49.128] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:E:\github\github\LittleGrass\entry\build\default\outputs\default\pack.info cache.
+[2024-08-10T11:57:49.128] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:1 ms .
+[2024-08-10T11:57:49.128] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:E:\github\github\LittleGrass\entry\build\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2024-08-10T11:57:49.128] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:E:\github\github\LittleGrass\entry\build\default\intermediates\process_profile\default\module.json cache.
+[2024-08-10T11:57:49.128] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2024-08-10T11:57:49.129] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio\sdk\HarmonyOS-NEXT-DB2\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2024-08-10T11:57:49.129] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio\sdk\HarmonyOS-NEXT-DB2\openharmony\ets\api\device-define cache by regenerate.
+[2024-08-10T11:57:49.130] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:E:\github\github\LittleGrass\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2024-08-10T11:57:49.130] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:3 ms .
+[2024-08-10T11:57:49.131] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:E:\github\github\LittleGrass\entry\oh-package.json5 cache by regenerate.
+[2024-08-10T11:57:49.131] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:E:\github\github\LittleGrass\oh-package.json5 cache by regenerate.
+[2024-08-10T11:57:49.131] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:E:\github\github\LittleGrass\entry\src\main\module.json5 cache by regenerate.
+[2024-08-10T11:57:49.132] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:E:\github\github\LittleGrass\entry\build\default\intermediates\router_map\default\temp-router-map.json cache.
+[2024-08-10T11:57:49.132] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:E:\github\github\LittleGrass\entry\build\default\intermediates\router_map\default\loader-router-map.json cache.
+[2024-08-10T11:57:49.132] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:2 ms .
+[2024-08-10T11:57:49.132] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\resConfig.json cache.
+[2024-08-10T11:57:49.132] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\opt-compression.json cache.
+[2024-08-10T11:57:49.132] [DEBUG] debug-file - Incremental task entry:default@ProcessResource post-execution cost:1 ms .
+[2024-08-10T11:57:49.134] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:E:\github\github\LittleGrass\entry\build\default\intermediates\router_map\default\temp-router-map.json cache by regenerate.
+[2024-08-10T11:57:49.134] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:E:\github\github\LittleGrass\entry\build\default\intermediates\loader\default\loader.json cache.
+[2024-08-10T11:57:49.134] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:2 ms .
+[2024-08-10T11:57:49.134] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\libs cache by regenerate.
+[2024-08-10T11:57:49.134] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:E:\github\github\LittleGrass\build-profile.json5 cache by regenerate.
+[2024-08-10T11:57:49.134] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:E:\github\github\LittleGrass\entry\build-profile.json5 cache by regenerate.
+[2024-08-10T11:57:49.135] [DEBUG] debug-file - Update task entry:default@ProcessLibs output file:E:\github\github\LittleGrass\entry\build\default\intermediates\libs\default cache.
+[2024-08-10T11:57:49.135] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs post-execution cost:1 ms .
+[2024-08-10T11:57:49.136] [DEBUG] debug-file - Update task entry:default@CompileResource input file:E:\github\github\LittleGrass\entry\src\main\resources cache by regenerate.
+[2024-08-10T11:57:49.139] [DEBUG] debug-file - Update task entry:default@CompileResource input file:E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\src\main\resources cache by regenerate.
+[2024-08-10T11:57:49.141] [DEBUG] debug-file - Update task entry:default@CompileResource input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\resource_str cache by regenerate.
+[2024-08-10T11:57:49.143] [DEBUG] debug-file - Update task entry:default@CompileResource input file:E:\github\github\LittleGrass\AppScope\resources cache by regenerate.
+[2024-08-10T11:57:49.144] [DEBUG] debug-file - Update task entry:default@CompileResource input file:E:\github\github\LittleGrass\entry\build\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2024-08-10T11:57:49.144] [DEBUG] debug-file - Update task entry:default@CompileResource input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\resConfig.json cache by regenerate.
+[2024-08-10T11:57:49.144] [DEBUG] debug-file - Update task entry:default@CompileResource output file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default cache.
+[2024-08-10T11:57:49.148] [DEBUG] debug-file - Update task entry:default@CompileResource output file:E:\github\github\LittleGrass\entry\build\default\generated\r\default\ResourceTable.h cache.
+[2024-08-10T11:57:49.148] [DEBUG] debug-file - Update task entry:default@CompileResource output file:E:\github\github\LittleGrass\entry\build\default\generated\r\default cache.
+[2024-08-10T11:57:49.149] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:14 ms .
+[2024-08-10T11:57:49.151] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\github\github\LittleGrass\entry\build\default\intermediates\loader\default cache by regenerate.
+[2024-08-10T11:57:49.151] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\index.js cache by regenerate.
+[2024-08-10T11:57:49.151] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\src\main\ets cache by regenerate.
+[2024-08-10T11:57:49.158] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2024-08-10T11:57:49.159] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-08-10T11:57:49.159] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-08-10T11:57:49.159] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-08-10T11:57:49.159] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\github\github\LittleGrass\entry\src\main\ets cache by regenerate.
+[2024-08-10T11:57:49.188] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:E:\github\github\LittleGrass\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-08-10T11:57:49.188] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:E:\github\github\LittleGrass\entry\build\default\intermediates\loader_out\default\ets cache.
+[2024-08-10T11:57:49.209] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:61 ms .
+[2024-08-10T11:57:49.210] [DEBUG] debug-file - Update task entry:default@BuildJS input file:E:\github\github\LittleGrass\entry\build\default\intermediates\loader\default cache by regenerate.
+[2024-08-10T11:57:49.211] [DEBUG] debug-file - Update task entry:default@BuildJS input file:E:\github\github\LittleGrass\oh_modules\.ohpm\@ohos+axios@2.2.0\oh_modules\@ohos\axios\index.js cache by regenerate.
+[2024-08-10T11:57:49.211] [DEBUG] debug-file - Update task entry:default@BuildJS input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2024-08-10T11:57:49.212] [DEBUG] debug-file - Update task entry:default@BuildJS input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-08-10T11:57:49.212] [DEBUG] debug-file - Update task entry:default@BuildJS input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-08-10T11:57:49.212] [DEBUG] debug-file - Update task entry:default@BuildJS input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-08-10T11:57:49.212] [DEBUG] debug-file - Update task entry:default@BuildJS output file:E:\github\github\LittleGrass\entry\build\default\intermediates\loader_out\default\js cache.
+[2024-08-10T11:57:49.213] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:4 ms .
+[2024-08-10T11:57:49.213] [DEBUG] debug-file - Update task entry:default@DoNativeStrip input file:E:\github\github\LittleGrass\entry\build\default\intermediates\libs\default cache by regenerate.
+[2024-08-10T11:57:49.213] [DEBUG] debug-file - Update task entry:default@DoNativeStrip output file:E:\github\github\LittleGrass\entry\build\default\intermediates\stripped_native_libs\default cache.
+[2024-08-10T11:57:49.213] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip post-execution cost:1 ms .
+[2024-08-10T11:57:49.213] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:E:\github\github\LittleGrass\entry\build\default\intermediates\libs\default cache by regenerate.
+[2024-08-10T11:57:49.214] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:E:\github\github\LittleGrass\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2024-08-10T11:57:49.214] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs output file:E:\github\github\LittleGrass\entry\build\default\intermediates\patch\default\base_native_libs.json cache.
+[2024-08-10T11:57:49.214] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs post-execution cost:1 ms .
+[2024-08-10T11:57:49.214] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-08-10T11:57:49.214] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:E:\github\github\LittleGrass\entry\build\default\intermediates\package\default\module.json cache.
+[2024-08-10T11:57:49.214] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2024-08-10T11:57:49.215] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\github\github\LittleGrass\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2024-08-10T11:57:49.215] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2024-08-10T11:57:49.215] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2024-08-10T11:57:49.217] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\github\github\LittleGrass\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2024-08-10T11:57:49.217] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\github\github\LittleGrass\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2024-08-10T11:57:49.217] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\github\github\LittleGrass\entry\build\default\intermediates\loader_out\default\ets cache by regenerate.
+[2024-08-10T11:57:49.238] [DEBUG] debug-file - Update task entry:default@PackageHap input file:E:\github\github\LittleGrass\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-08-10T11:57:49.238] [DEBUG] debug-file - Update task entry:default@PackageHap output file:E:\github\github\LittleGrass\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2024-08-10T11:57:49.238] [DEBUG] debug-file - Update task entry:default@PackageHap output file:E:\github\github\LittleGrass\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2024-08-10T11:57:49.239] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:25 ms .
+[2024-08-10T11:57:49.239] [DEBUG] debug-file - Update task entry:default@SignHap input file:E:\github\github\LittleGrass\entry\build\default\outputs\default\entry-default-unsigned.hap cache by regenerate.
+[2024-08-10T11:57:49.239] [DEBUG] debug-file - Update task entry:default@SignHap output file:E:\github\github\LittleGrass\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2024-08-10T11:57:49.239] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2024-08-10T11:57:49.423] [DEBUG] debug-file - Cleanup worker 1.
+[2024-08-10T11:57:49.423] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2024-08-10T11:57:49.423] [DEBUG] debug-file - Current idle worker size: 3.
+[2024-08-10T11:57:49.423] [DEBUG] debug-file - Current resident worker size: 4.
+[2024-08-10T11:57:49.423] [DEBUG] debug-file - Cleanup worker 29.
+[2024-08-10T11:57:49.423] [DEBUG] debug-file - Worker 29 has been cleaned up.
+[2024-08-10T11:57:49.423] [DEBUG] debug-file - Current idle worker size: 2.
+[2024-08-10T11:57:49.423] [DEBUG] debug-file - Current resident worker size: 4.
+[2024-08-10T11:57:49.424] [DEBUG] debug-file - Cleanup worker 30.
+[2024-08-10T11:57:49.424] [DEBUG] debug-file - Worker 30 has been cleaned up.
+[2024-08-10T11:57:49.424] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-08-10T11:57:49.424] [DEBUG] debug-file - Current resident worker size: 4.
+[2024-08-10T11:57:49.425] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-08-10T11:57:49.428] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-08-10T11:57:49.428] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-08-10T11:57:49.430] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2024-08-10T11:57:49.431] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-08-10T11:57:49.431] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-08-10T11:57:49.434] [DEBUG] debug-file - worker[29] exits with exit code 1.
+[2024-08-10T11:57:49.439] [DEBUG] debug-file - worker[30] exits with exit code 1.

@@ -1,0 +1,28 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFEBDEFF"
+    },
+    {
+      "name": "main_window_bg",
+      "value": "#FFEBDEFF"
+    },
+    {
+      "name": "copyright_text",
+      "value": "#99182431"
+    },
+    {
+      "name": "title",
+      "value": "#182431"
+    },
+    {
+      "name": "rect_area_background",
+      "value": "#4D000000"
+    },
+    {
+      "name": "rect_stroke",
+      "value": "#99FFFFFF"
+    }
+  ]
+}
